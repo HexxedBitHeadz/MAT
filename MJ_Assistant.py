@@ -92,7 +92,7 @@ root.config(menu=menu)
 
 tab_parent = ttk.Notebook(root)
 tab1 = ttk.Frame(tab_parent)
-tab_parent.add(tab1, text="tab1")
+tab_parent.add(tab1, text="MAT")
 tab_parent.pack(expand=1, fill='both')
 
 subm_1 = Menu(menu)

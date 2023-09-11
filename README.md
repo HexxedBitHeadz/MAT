@@ -7,6 +7,10 @@ I find myself using Midjourney, like a lot.  I decided to make a small tool that
 
 The artist name were taken from https://midlibrary.io/, and no, not ALL the names are inlcuded in this tool.  Free free to replace the names incldued in this tool with your own selection.
 
+- "No people" option, is just that, attempts to remove any people from your art.
+- "Tshirt vector" option, attempts to make art more shirt friendly, also tries to apply a black background.
+- Radio buttons for niji or Midjourney.
+- Radio buttons for 250 / 500 / 750 stylize options.
 
 Includes a Save and Load function, allowing you to save your favorite selections!
 
