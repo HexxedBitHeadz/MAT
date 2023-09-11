@@ -7,7 +7,7 @@ import random, os
 root = tk.Tk()
 root.title("Hexxed BitHeadz - Midjourney Assistant Tool")
 root.resizable(False, False)
-width = 1000
+width = 900
 height = 800
 root.geometry('{}x{}'.format(width, height))
 
@@ -536,14 +536,14 @@ def copySelection():
 
     # Make a label that displays the text2Copy
     labelCopy = tk.Label(tab1, text=text2Copy, font=("Arial Bold", 12), wraplength=800)
-    labelCopy.place(x=10, y=650)
+    labelCopy.place(x=10, y=620)
 
     # Make the label background black, with green text
     labelCopy.config(bg="black", fg="green")
 
     # Make a label that says "Text copied to clipboard" and times out after 5 seconds
     labelCopied = tk.Label(tab1, text="Text copied to clipboard!", font=("Arial Bold", 12))
-    labelCopied.place(x=800, y=720)
+    labelCopied.place(x=680, y=720)
 
     # Make the label background black, with green text
     labelCopied.config(bg="black", fg="yellow")
