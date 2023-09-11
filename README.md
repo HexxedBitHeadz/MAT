@@ -1,17 +1,17 @@
 # MAT
-Midjourney Assitant Tool
+Midjourney Assistant Tool
 
-Welcome to MAT! 
+Welcome to MAT!
 
-I find myself using Midjourney, like a lot.  I decided to make a small tool that would help me with reoccuring selections.  So I made this tool, where I put in various arists by name, and I can select a few parameters, and hit the copy button that easily puts what I want in the clipboard for me to paste into Discord /imagine prompt.
+I find myself using Midjourney a lot. I decided to create a small tool that would help me with recurring selections. So, I made this tool where I can input various artists by name, select a few parameters, and then press the copy button to easily place what I want in the clipboard for pasting into Discord or an image prompt.
 
-The artist name were taken from https://midlibrary.io/, and no, not ALL the names are inlcuded in this tool.  Free free to replace the names incldued in this tool with your own selection.
+The artist names were taken from https://midlibrary.io/, and no, not ALL the names are included in this tool. Feel free to replace the names included in this tool with your own selections.
 
-- "No people" option, is just that, attempts to remove any people from your art.
-- "Tshirt vector" option, attempts to make art more shirt friendly, also tries to apply a black background.
-- Radio buttons for niji or Midjourney.
-- Radio buttons for 250 / 500 / 750 stylize options.
+    - The "No people" option attempts to remove any people from your art.
+    - The "T-shirt vector" option aims to make art more suitable for shirts and also tries to apply a black background.
+    - There are radio buttons for Niji or Midjourney.
+    - There are radio buttons for 250/500/750 stylize options.
 
-Includes a Save and Load function, allowing you to save your favorite selections!
+The tool includes a Save and Load function, allowing you to save your favorite selections!
 
 ![image](https://github.com/HexxedBitHeadz/MAT/assets/114350234/57c14ba8-20fa-4dfb-ac1f-3839132c67b8)
