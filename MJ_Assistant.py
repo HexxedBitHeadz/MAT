@@ -464,11 +464,7 @@ text2Copy = ""
 # Print all the selected items
 def copySelection():
 
-    # Delete labelCopy if it exists
-    try:
-        labelCopy.destroy()
-    except:
-        pass
+    global labelCopy
 
     prefixes = {
         listboxTechniques: " Technique",
@@ -533,6 +529,13 @@ def copySelection():
         text2Copy += " --niji 5"
     elif radioMode.get() == 2:
         text2Copy += " --v 5.2"
+
+
+    try:
+        # Destroy labelCopy if it exists
+        labelCopy.destroy()
+    except:
+        pass
 
     # Make a label that displays the text2Copy
     labelCopy = tk.Label(tab1, text=text2Copy, font=("Arial Bold", 12), wraplength=800)
