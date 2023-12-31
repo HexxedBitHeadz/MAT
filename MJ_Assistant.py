@@ -420,12 +420,15 @@ radioMidjourney.place(x=100, y=560)
 
 # Make a radio button for stylize option
 radioStylize = tk.IntVar()
-radioStylize1 = tk.Radiobutton(tab1, text="stylize 250", variable=radioStylize, value=1)
+
+radioStylize1 = tk.Radiobutton(tab1, text="stylize 0", variable=radioStylize, value=1, width=8)
 radioStylize1.place(x=10, y=590)
-radioStylize2 = tk.Radiobutton(tab1, text="stylize 500", variable=radioStylize, value=2)
+radioStylize2 = tk.Radiobutton(tab1, text="stylize 250", variable=radioStylize, value=2, width=8)
 radioStylize2.place(x=100, y=590)
-radioStylize3 = tk.Radiobutton(tab1, text="stylize 750", variable=radioStylize, value=3)
+radioStylize3 = tk.Radiobutton(tab1, text="stylize 500", variable=radioStylize, value=3, width=8)
 radioStylize3.place(x=190, y=590)
+radioStylize4 = tk.Radiobutton(tab1, text="stylize 750", variable=radioStylize, value=4, width=8)
+radioStylize4.place(x=280, y=590)
 
 
 # Make a function that selects a random item from every listbox
@@ -517,18 +520,21 @@ def copySelection():
         text2Copy = "tshirt vector, black background, " + text2Copy
 
     # Append radio button option
+
     if radioStylize.get() == 1:
-        text2Copy += ", 8k, --ar 7:4 --s 250"
+        text2Copy += ", 8k, --ar 7:4 --s 0"
     elif radioStylize.get() == 2:
-        text2Copy += ", 8k, --ar 7:4 --s 500"
+        text2Copy += ", 8k, --ar 7:4 --s 250"
     elif radioStylize.get() == 3:
+        text2Copy += ", 8k, --ar 7:4 --s 500"
+    elif radioStylize.get() == 4:
         text2Copy += ", 8k, --ar 7:4 --s 750"
 
     # Append radio button option
     if radioMode.get() == 1:
         text2Copy += " --niji 5"
     elif radioMode.get() == 2:
-        text2Copy += " --v 5.2"
+        text2Copy += " --v 6"
 
 
     try:
