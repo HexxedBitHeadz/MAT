@@ -532,7 +532,7 @@ def copySelection():
 
     # Append radio button option
     if radioMode.get() == 1:
-        text2Copy += " --niji 5"
+        text2Copy += " --niji 6"
     elif radioMode.get() == 2:
         text2Copy += " --v 6"
 
