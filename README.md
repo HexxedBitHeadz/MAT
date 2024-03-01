@@ -22,4 +22,4 @@ Features include:
 
 
 
-![image](https://github.com/HexxedBitHeadz/MAT/assets/114350234/57c14ba8-20fa-4dfb-ac1f-3839132c67b8)
+![image]([https://github.com/HexxedBitHeadz/MAT/assets/114350234/57c14ba8-20fa-4dfb-ac1f-3839132c67b8](https://github.com/HexxedBitHeadz/MAT/blob/main/MAT-GUI.png?raw=true)https://github.com/HexxedBitHeadz/MAT/blob/main/MAT-GUI.png?raw=true)
