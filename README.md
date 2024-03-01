@@ -18,4 +18,4 @@ Features include:
     - There are radio buttons for 0/250/500/750/1000 stylize options.
 
 
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/HexxedBitHeadz/MAT/blob/main/MAT-GUI.png?raw=true))
+![Screenshot](MAT-GUI.png)
