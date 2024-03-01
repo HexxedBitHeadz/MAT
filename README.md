@@ -16,3 +16,7 @@ Features include:<br>
     - The "Logo vector" option aims to make art more suitable for creating logos also tries to apply a black background.<br>
     - There are radio buttons for Niji or Midjourney.<br>
     - There are radio buttons for 0/250/500/750/1000 stylize options.
+
+
+
+![Screenshot](MAT-GUIv1.1.png)
