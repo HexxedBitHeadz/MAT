@@ -1,7 +1,7 @@
 # MAT
 Midjourney Assistant Tool v1.1
 
-Welcome to MAT 1.1 UPDATE!
+Welcome to MAT 1.1 UPDATE!  See below for new features!
 
 I find myself using Midjourney a lot. I decided to create a small tool that would help me with staging recurring selections. So, I made this tool where I can simply insert my prompt, quickly select some frequent options and copy to paste into midjourney.<br>
 
@@ -20,3 +20,5 @@ Features include:<br>
 
 
 ![Screenshot](MAT-GUIv1.1.png)
+
+![Screenshot](MAT-GUIv1.1-result.png)
