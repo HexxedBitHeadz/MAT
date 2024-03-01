@@ -448,6 +448,7 @@ def copySelection(self):
     if logo_vector_checked:
         copied_text += "logo vector, black background, "
 
+    #copied_text += selected_text + ", " + self.dropdown.get() + " " + self.listbox.get(tk.ACTIVE) + " style, "
     copied_text += selected_text + ", " + self.dropdown.get() + " " + self.listbox.get(tk.ACTIVE) + " style, "
 
     if no_people_checked:
