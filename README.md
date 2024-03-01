@@ -3,7 +3,7 @@ Midjourney Assistant Tool v1.1
 
 Welcome to MAT 1.1 UPDATE!
 
-I find myself using Midjourney a lot. I decided to create a small tool that would help me with staging recurring selections. So, I made this tool where I can input various artists by name, select a few parameters, and then press the copy button to easily place what I want in the clipboard for pasting into Discord or an image prompt.
+I find myself using Midjourney a lot. I decided to create a small tool that would help me with staging recurring selections. So, I made this tool where I can simply insert my prompt, quickly select some frequent options and copy to paste into midjourney.<br>
 
 Features include:<br>
     - The save feature has been completely revamed, stores input and GUI selections into a json file (NEW)<br>
