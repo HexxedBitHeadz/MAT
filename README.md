@@ -17,10 +17,11 @@ Features include:<br>
     - There are radio buttons for Niji or Midjourney.<br>
     - There are radio buttons for 0/250/500/750/1000 stylize options.
 
+MAT             |  Midjourney
+:-------------------------:|:-------------------------:
+![Screenshot](MAT-GUIv1.1.png)  |  ![Screenshot](MAT-GUIv1.1-result.png)
 
 
-![Screenshot](MAT-GUIv1.1.png)
-
-![Screenshot](MAT-GUIv1.1-result.png)
-
+Search             |
+:-------------------------:
 ![Screenshot](MAT-GUIv1.1-search.png)
