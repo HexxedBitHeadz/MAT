@@ -6,7 +6,7 @@ class SimpleGUI:
     def __init__(self, root):
         self.root = root
         root.title("Hexxed BitHeadz - Midjourney Assistant Tool v1.1")
-        root.resizable(False, False)
+        root.resizable(True, True)
         root.configure(bg='black')
 
         # Set icon
