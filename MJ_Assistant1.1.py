@@ -452,7 +452,7 @@ def copySelection(self):
     copied_text += selected_text + ", " + self.dropdown.get() + " " + self.listbox.get(tk.ACTIVE) + " style, "
 
     if no_people_checked:
-        copied_text += "--no people, woman, man"
+        copied_text += " --no people, woman, man"
         
     if self.radioStylize.get() == 1:
         copied_text += ", 8k, --ar 7:4 --s 0"
