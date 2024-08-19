@@ -478,7 +478,7 @@ def copySelection(self):
     if self.radioMode.get() == 1:
         copied_text += " --niji 6"
     elif self.radioMode.get() == 2:
-        copied_text += " --v 6"
+        copied_text += " --v 6.1"
 
     # Print or process the copied text as needed
     print(copied_text)
