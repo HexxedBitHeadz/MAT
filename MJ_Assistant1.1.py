@@ -452,18 +452,18 @@ def copySelection(self):
     copied_text += selected_text + ", " + " " + self.listbox.get(tk.ACTIVE) + " style, "
 
     if no_people_checked:
-        copied_text += " --no people, woman, man"
+        copied_text += " --no people, woman, man,"
         
     if self.radioStylize.get() == 1:
-        copied_text += ", 8k, --ar 7:4 --s 0"
+        copied_text += " 8k, --ar 7:4 --s 0"
     elif self.radioStylize.get() == 2:
-        copied_text += ", 8k, --ar 7:4 --s 250"
+        copied_text += " 8k, --ar 7:4 --s 250"
     elif self.radioStylize.get() == 3:
-        copied_text += ", 8k, --ar 7:4 --s 500"
+        copied_text += " 8k, --ar 7:4 --s 500"
     elif self.radioStylize.get() == 4:
-        copied_text += ", 8k, --ar 7:4 --s 750"
+        copied_text += " 8k, --ar 7:4 --s 750"
     elif self.radioStylize.get() == 5:
-        copied_text += ", 8k, --ar 7:4 --s 1000"
+        copied_text += " 8k, --ar 7:4 --s 1000"
 
     if self.radioChaos.get() == 1:
         copied_text += " --c 0"
