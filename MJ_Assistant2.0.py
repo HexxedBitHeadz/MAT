@@ -174,7 +174,7 @@ class SimpleGUI:
         # Construct the copied text
         copied_text = selected_text
         if listbox_selection:
-            copied_text += f", {listbox_selection} style --ar 7:4"
+            copied_text += f", {listbox_selection} style"
 
         # Include checkbox selections
         if self.check_vars[2].get():  # Tshirt vector
@@ -197,7 +197,7 @@ class SimpleGUI:
         # Include Mode (Midjourney or Niji)
         mode_options = {1: " --niji 6", 2: " --v 6.1"}
         if self.radioMode.get() in mode_options:
-            copied_text += mode_options[self.radioMode.get()]
+            copied_text += mode_options[self.radioMode.get()] + " --ar 7:4"
 
         # Copy text to clipboard
         self.root.clipboard_clear()
