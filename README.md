@@ -1,4 +1,14 @@
 # MAT
+Midjourney Assistant Tool v2.3
+Welcome to MAT 2.3 UPDATE!  See below for new features!
+-Log button in toolbar: Logs previous prompt entires, double click for quick copy
+-Search update: Now uses sort | uniq to eliminate duplicate results
+-draft mode: Now able to include draft mode, which results in lower resolution and faster results
+-repeat: Since when was this a thing?!  Now able to select few options in drop down to build prompt with repeat!
+-Live preview window: Upgraded whimpy label to live preview mode at the bottom, dynamically displaying your beautiful prompt in real-friggin-time yo!
+
+>>>OLD NEWS>>>
+
 Midjourney Assistant Tool v1.1
 
 Welcome to MAT 1.1 UPDATE!  See below for new features!
