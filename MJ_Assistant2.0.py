@@ -391,7 +391,7 @@ class SimpleGUI:
             prompt += f", {listbox_selection} style"
 
         if self.check_vars[1].get():
-            prompt += " --no people, woman, man"
+            prompt += " no people, woman, man"
         if self.check_vars[2].get():
             prompt += ", tshirt vector, black background"
         if self.check_vars[3].get():
