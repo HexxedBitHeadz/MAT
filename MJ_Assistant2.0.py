@@ -5,7 +5,7 @@ from tkinter import ttk, scrolledtext, messagebox
 class SimpleGUI:
     def __init__(self, root):
         self.root = root
-        root.title("Hexxed BitHeadz - Midjourney Assistant Tool v2.3")
+        root.title("Hexxed BitHeadz - Midjourney Assistant Tool v2.2")
         root.resizable(False, False)
 
         self.autosave_path = os.path.join(os.path.dirname(__file__), "autosave_prompt.txt")
@@ -65,7 +65,12 @@ class SimpleGUI:
 
         self.dropdown = ttk.Combobox(self.root, values=self.get_style_options(), state="readonly")
         self.dropdown.place(x=10, y=120)
-        self.dropdown.bind("<<ComboboxSelected>>", self.update_listbox_options)
+
+        def on_dropdown_change(event=None):
+            self.update_listbox_options()
+            self.update_preview()
+
+        self.dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
 
         self.listbox = tk.Listbox(self.root, width=25, height=15, bg='black', fg='green', font=("Arial", 12))
         self.listbox.place(x=220, y=120)
@@ -111,7 +116,6 @@ class SimpleGUI:
         self.repeat_var.trace_add("write", self.update_preview)
 
         self.scrolled_text.bind("<<Modified>>", lambda e: (self.update_preview(), self.scrolled_text.edit_modified(False)))
-        self.dropdown.bind("<<ComboboxSelected>>", self.update_preview)
         self.listbox.bind("<<ListboxSelect>>", self.update_preview)
 
         for var in self.check_vars.values():
@@ -391,7 +395,7 @@ class SimpleGUI:
             prompt += f", {listbox_selection} style"
 
         if self.check_vars[1].get():
-            prompt += " no people, woman, man"
+            prompt += "no people, woman, man"
         if self.check_vars[2].get():
             prompt += ", tshirt vector, black background"
         if self.check_vars[3].get():
