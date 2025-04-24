@@ -387,7 +387,10 @@ class SimpleGUI:
     def build_prompt(self):
         """Assembles the full prompt based on current UI state."""
         selected_text = self.scrolled_text.get("1.0", tk.END).strip()
-        listbox_selection = self.listbox.get(tk.ACTIVE)
+        #listbox_selection = self.listbox.get(tk.ACTIVE)
+        selected_indices = self.listbox.curselection()
+        listbox_selection = self.listbox.get(selected_indices[0]) if selected_indices else ""
+
 
         # Start building the prompt
         prompt = selected_text
