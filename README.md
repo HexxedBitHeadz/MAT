@@ -169,68 +169,12 @@ Artist Name
 Movement or Technique
 ```
 
-## 🔍 Troubleshooting
-
-### Common Issues
-
-**Styles not loading?**
-- Check that Styles folder exists and contains .txt files
-- Verify file encoding is UTF-8
-- Check application logs in data/mat.log
-
-**Configuration not saving?**
-- Ensure write permissions in application folder
-- Check disk space
-- Review error logs
-
-**Performance issues?**
-- Reduce auto-save frequency
-- Clear style cache (F5)
-- Check available memory
-
 ### Logging
 The application maintains detailed logs in `data/mat.log`:
 - Error messages and stack traces
 - Performance metrics
 - User actions and settings changes
 
-## 📊 Performance & Memory
-
-### Optimizations
-- **Lazy Loading**: Styles loaded only when needed
-- **Caching**: Frequently accessed data cached in memory
-- **Efficient Search**: Fast text search algorithms
-- **Memory Management**: Automatic cleanup of unused resources
-
-### Benchmarks
-- Startup time: <2 seconds
-- Style search: <100ms for 1000+ items
-- Memory usage: ~50MB typical
-- File operations: <50ms average
-
-## 🤝 Contributing
-
-### Code Style
-- Follow PEP 8 guidelines
-- Use type hints
-- Include docstrings
-- Add comprehensive error handling
-
-### Adding Features
-1. Create feature branch
-2. Implement with tests
-3. Update documentation
-4. Submit pull request
-
-## 📈 Roadmap
-
-### Planned Features
-- **API Integration**: Direct Midjourney API support
-- **Batch Processing**: Generate multiple variations
-- **Style Preview**: Visual style thumbnails
-- **Collaboration**: Share templates and settings
-- **Plugin System**: Extensible architecture
-- **Mobile Support**: Cross-platform compatibility
 
 ### Version History
 - **v3.0**: Complete rewrite with enhanced architecture
@@ -240,14 +184,5 @@ The application maintains detailed logs in `data/mat.log`:
 ## 📄 License
 
 This project is open-source and available under the MIT License.
-
-## 💬 Support
-
-For issues, questions, or suggestions:
-- Check the troubleshooting section
-- Review application logs
-- Create an issue with detailed information
-
----
 
 **Enhanced MAT v3.0** - Taking your Midjourney prompts to the next level! 🎨✨
