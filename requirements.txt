@@ -1,0 +1,25 @@
+# Requirements for Enhanced MAT v3.0
+# Core dependencies (built-in Python modules)
+# tkinter - GUI framework (included with Python)
+# json - JSON handling (included with Python)
+# os - Operating system interface (included with Python)
+# logging - Logging functionality (included with Python)
+# random - Random number generation (included with Python)
+# datetime - Date and time handling (included with Python)
+# typing - Type hints (included with Python 3.5+)
+# dataclasses - Data classes (included with Python 3.7+)
+
+# Optional dependencies for enhanced features
+# Pillow>=8.0.0  # For image handling (if adding image preview features)
+# requests>=2.25.0  # For API integrations (if adding Midjourney API)
+# matplotlib>=3.3.0  # For analytics and charts (if adding usage analytics)
+# numpy>=1.20.0  # For data processing (if adding advanced analytics)
+
+# Development dependencies
+# pytest>=6.0.0  # For testing
+# black>=21.0.0  # For code formatting
+# flake8>=3.8.0  # For linting
+# mypy>=0.800  # For type checking
+
+# No external dependencies required for basic functionality
+# The enhanced version uses only Python standard library modules
