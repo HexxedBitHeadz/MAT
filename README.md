@@ -1,6 +1,6 @@
 # Enhanced Midjourney Assistant Tool (MAT) v3.0
 
-A comprehensive and enhanced version of the Midjourney Assistant Tool with advanced features, improved UI, and robust architecture.
+A comprehensive and enhanced version of the Midjourney Assistant Tool with advanced features, improved UI, and robust architecture. This version has not gone through much testing, issue may occur, but will be fixed as they are discovered / reported
 
 ## 🚀 What's New in v3.0
 
